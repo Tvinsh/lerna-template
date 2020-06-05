@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "command": {
+    "version": {
+      "allowBranch": [
+        "master",
+        "feature/*"
+      ],
+      "commitHooks": false
+    }
+  }
+}
